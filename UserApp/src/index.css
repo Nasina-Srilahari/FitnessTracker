@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-size: 3rem;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.profile-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.profile-details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
